@@ -64,6 +64,21 @@ run '~/.tmux/plugins/tpm/tpm'
 
 ## Neovim config
 
+install neovim
+
+```bash
+wget https://github.com/neovim/neovim/releases/download/v0.6.1/nvim-linux64.tar.gz
+```
+
+install pynvim
+```bash
+pip install pynvim
+```
+install vim-plug
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
 ```vim-script
 
 syntax on
