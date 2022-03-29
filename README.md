@@ -2,6 +2,13 @@
 
 ## Tmux config
 
+Install tmux plugin manager
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+
 **tmux-power**
 
 ```vim-script
