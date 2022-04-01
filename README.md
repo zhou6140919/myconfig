@@ -84,6 +84,13 @@ install copilot
 git clone https://github.com/github/copilot.vim.git ~/.config/nvim/pack/github/start/copilot.vim
 ```
 
+install nvm and node
+```bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+nvm install node
+```
+
+
 ```vim-script
 
 syntax on
